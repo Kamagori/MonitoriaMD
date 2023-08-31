@@ -102,3 +102,47 @@
 //     }
 // }
 
+// int main(){
+//     int N;
+//     double E = 1.0;
+//     printf("Digite um valor inteiro e positivo para N: ");
+//     scanf("%d", &N);
+//     for (int i = 1; i <= N; i++){
+//         E += 1.0 / i;
+//     }
+//     E--;
+//     printf("O valor de E para N = %d eh: %.2lf\n", N, E);
+//     return 0;
+// }
+
+// int main() {
+//     int N;
+//     double E = 0.0;
+//     int i = 1;
+//     printf("Digite um valor inteiro e positivo para N: ");
+//     scanf("%d", &N);
+//     while (i <= N) {
+//         E += 1.0 / i;
+//         i++;
+//     }
+//     printf("O valor de E para N = %d eh: %lf\n", N, E);
+//     return 0;
+// }
+
+// int main() {
+//     int N;
+//     scanf("%d", &N);
+//     for (int i = 1; i <= N; i++) {
+//         printf("%d X %d = %d\n", i, N, i * N);
+//     }
+// }
+
+// int main() {
+//     int N;
+//     scanf("%d", &N);
+//     int i = 1;
+//     while (i <= N) {
+//         printf("%d X %d = %d\n", i, N, i * N);
+//         i++;
+//     }
+// }
