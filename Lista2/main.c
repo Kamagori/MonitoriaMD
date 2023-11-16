@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// int main(){
-//     for(int i = 1; i <= 3; i++){
-//         int num, cubo;
-//         printf("Informe um numero: ");
-//         scanf("%d",&num);
-//         cubo = num * num * num;
-//         printf("O cubo do numero informado eh %d\n", cubo);
-//     }
-// }
+int main(){
+int x = 0;
+do{
+printf("O valor de x e: %d\n", x);
+x++;
+}while(x< 0);
+return 0;
+}
 
 // int main(){
 //     int N, i, soma = 0;
